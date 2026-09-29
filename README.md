@@ -16,6 +16,7 @@ the constraints file maps your inputs and outputs to real pins on the FPGA.
 ## Name
 
 ## Lab Summary
+In this lab we programmed 2 circuits and assigned the output of one of them to the input of the other. We assigned 6 switches in total and the output of circuit A to led 0 and a wire that was connected to circuit B. We programmed the logic of each circuit using maxterms and min terms with a truth table. Finally we added constraints to the project and wrote it to the board. 
 
 ## Lab Questions
 
@@ -24,4 +25,4 @@ the constraints file maps your inputs and outputs to real pins on the FPGA.
 ### 2 - Explain the function of the Constraints file.
 
 ### 3 - Was the selection of Minterm and Maxterm correct for each circuit? What would you have chosen?
-
+Yes the selection for both min term and maxterm was correct for each circuit. I would have chosen min terms for circuit A due there being less ones than zeros which makes it easier to extract the function.
